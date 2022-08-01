@@ -16,7 +16,6 @@ body {
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
-  background: #b2cec9;
   color: gray; }
   body.menu-show {
     overflow: hidden;
@@ -335,7 +334,7 @@ header {
 #colorlib-progress,
 #colorlib-contact,
 #colorlib-about {
-  padding: 10em 0;
+  padding: 2em 0;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
@@ -386,7 +385,7 @@ header {
       display: block;
       margin-bottom: 0;
       color: #000;
-      font-size: 50px;
+      font-size: 36px;
       font-family: "Playfair Display", Georgia, serif; }
   .about-desc .desc {
     padding-left: 6em;
@@ -431,7 +430,7 @@ header {
       font-size: 60px; } }
 
 .intro-heading {
-  margin-bottom: 3em; }
+  margin-bottom: 0.1em; }
   .intro-heading h2 {
     font-size: 34px;
     font-weight: 400;
@@ -705,7 +704,7 @@ header {
 
 .work-entry {
   display: block;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   width: 100%;
   float: left; }
   .work-entry .work-img {
