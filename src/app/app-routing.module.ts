@@ -3,10 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HomeComponent } from './components/home/home.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { WorkComponent } from './components/work/work.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
   {
     path: 'about',
     component: AboutComponent
